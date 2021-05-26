@@ -1,0 +1,69 @@
+html{
+    background-color: black;
+}
+h1{
+   color:lightcoral;
+}
+
+body{
+    background-color: lightcoral;
+}
+p.solid {border-style: solid;}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+h3 {
+    text-decoration: underline;
+  }
+h1 {
+    text-shadow: 2px 2px;}
+    p.thick {
+        font-weight: bold;
+      }
+  p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: lightcoral;
+    outline-width: thin;
+  }
+    div {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      }
+
+      div {
+        width: 200px;
+        height: 50px;
+        background-color: #eee;
+        overflow: visible;
+      }
+
+      #grad {
+        background-image: linear-gradient(to right, lightcoral , black);
+      }
+
+      img {
+        border-radius: 8px;
+      }
+      body {
+        counter-reset: section;
+      }
+      
+      h2::before {
+        counter-increment: section;
+        content: "Section " counter(section) ": ";
+      }
+      .header {
+        background-color: #F1F1F1;
+        text-align: center;
+        padding: 20px;
+      }
